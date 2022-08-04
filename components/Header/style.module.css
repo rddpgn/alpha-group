@@ -1,0 +1,72 @@
+.link {
+    color: white;
+    font-size: 14rem;
+    text-decoration: none;
+    opacity: 80%;
+    position: relative;
+}
+
+.link::before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 0rem;
+    transition: height 0.2s;
+    background-color: #478EFF;
+    left: -7rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.link:hover {
+    opacity: 100%;
+}
+
+.link:hover::before {
+    width: 2px;
+    height: 10rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200rem;
+    margin-top: 30rem;
+    position: absolute;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.shadow_block {
+    background: rgba(45, 45, 45, 0.5);
+    backdrop-filter: blur(50px);
+    border-radius: 20rem;
+    padding: 10rem 15rem 15rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.shadow_block_wide {
+    padding: 10rem 25rem 15rem;
+}
+
+.shadow_block > * + * {
+    margin-top: 6rem;
+}
+
+.phone_number {
+    font-weight: bold;
+    font-size: 24rem;
+}
+
+.blue {
+    color: #478EFF;
+}
+
+.logo {
+    width: 138rem;
+    margin-top: -8rem;
+}
