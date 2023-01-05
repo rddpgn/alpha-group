@@ -11,3 +11,13 @@ body * {
     font-size: 14rem;
     color: white;
 }
+
+.flex_h_sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page_content {
+    margin: 0 200rem;
+}

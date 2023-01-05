@@ -1,17 +1,16 @@
-import HeaderContainer from "../containers/HeaderContainer/HeaderContainer";
-import {Head} from "next/head";
 import {useEffect} from "react";
+import WelcomeScreen from "../src/screens/WelcomeScreen";
+import WhyScreen from "../src/screens/WhyScreen";
+import PriceScreen from "../src/screens/PriceScreen";
 
 export default function Home() {
-    const tmp = {
-        opacity: 0.2,
-        position: 'absolute',
-    }
-
     return (
         <>
-
-            <HeaderContainer/>
+            <div className='page_content'>
+                <WelcomeScreen/>
+                <WhyScreen/>
+                <PriceScreen/>
+            </div>
         </>
     )
 }

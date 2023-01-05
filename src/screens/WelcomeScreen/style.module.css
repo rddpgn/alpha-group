@@ -1,0 +1,29 @@
+.wrapper {
+    margin-top: 289rem;
+}
+
+.text_wrapper {
+    width: 100%;
+    padding-right: 50%;
+    box-sizing: border-box;
+}
+
+.text_wrapper > h1 {
+    font-weight: 700;
+    font-size: 36rem;
+    line-height: 44rem;
+}
+
+.text_wrapper > section {
+    font-weight: 400;
+    font-size: 20rem;
+    line-height: 24rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.products_wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 31rem;
+}
