@@ -18,6 +18,13 @@ body * {
     justify-content: space-between;
 }
 
+.flex_h_c_sb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .page_content {
     margin: 0 200rem;
 }
